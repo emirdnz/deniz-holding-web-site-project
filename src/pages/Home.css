@@ -1,0 +1,50 @@
+.home {
+  padding-top: 80px; /* Header'ın yüksekliğine göre ayarlayın */
+}
+
+.hero {
+  background-color: #f0f0f0;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.featured-news,
+.sectors,
+.sustainability {
+  padding: 4rem 2rem;
+}
+
+.featured-news h2,
+.sectors h2,
+.sustainability h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .featured-news,
+  .sectors,
+  .sustainability {
+    padding: 2rem 1rem;
+  }
+
+  .featured-news h2,
+  .sectors h2,
+  .sustainability h2 {
+    font-size: 1.5rem;
+  }
+}
